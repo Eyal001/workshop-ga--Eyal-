@@ -1,0 +1,12 @@
+name : Tests
+on: 
+push:
+branches : [dev, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    name: hello-world
+steps:
+  name: Say hello world
+  name: echo Welcome to the github Action workshop !
