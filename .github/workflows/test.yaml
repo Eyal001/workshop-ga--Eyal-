@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-20.04
     name: hello-world
 steps:
-  name: Say hello world
-  name: echo Welcome to the github Action workshop !
+  - name: Say hello world
+    run: echo Welcome to the github Action workshop !
